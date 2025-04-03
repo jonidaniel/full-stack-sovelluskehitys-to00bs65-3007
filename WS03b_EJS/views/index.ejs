@@ -1,0 +1,39 @@
+<!-- Exercise 2 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EJS Exercise</title>
+  </head>
+  <body>
+    <!-- Exercise 3 -->
+    <!-- This kind of EJS tag is for partials -->
+    <%- include("partials/_header.ejs") %>
+    <h1>Hello from EJS!</h1>
+    <!-- This kind of EJS tag is for controlling flow -->
+    <% for (i = 0; i < 10; i++) { %>
+    <div>Test</div>
+    <% } %>
+    <br />
+    <!-- This kind of EJS tag is for outputting -->
+    <!-- Use locals to access the template values -->
+    <%= locals.message %>
+    <br />
+    <% locals.people.forEach(person => { %>
+    <h3><%= person.name %></h3>
+    <% }) %>
+    <!-- Exercise 4 -->
+    <% if (locals.bool) { %>
+    <div>True</div>
+    <% } else { %>
+    <div>False</div>
+    <% } %>
+    <!-- Exercise 5 -->
+    <% locals.carBrands.forEach(carBrand => { %>
+    <h3><%= carBrand.name + ", quality: " + carBrand.quality %></h3>
+    <% }) %>
+    <!-- Exercise 3 -->
+    <%- include("partials/_footer.ejs") %>
+  </body>
+</html>
