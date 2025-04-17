@@ -38,12 +38,12 @@ Exercise submit for Workshop 5
 
     &nbsp;&nbsp;Response:
 
-    &nbsp;&nbsp;_{_<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;_"name": "Joni",_<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;_"age": 35,_<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;_"city": "Vantaa",_<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;_"email": "joni@live.com"_<br>
-    &nbsp;&nbsp;_}_
+    &nbsp;&nbsp;&nbsp;&nbsp;_{_<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"name": "Joni",_<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"age": 35,_<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"city": "Vantaa",_<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"email": "joni@live.com"_<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;_}_
 
 - **GET (by ID)**
 
