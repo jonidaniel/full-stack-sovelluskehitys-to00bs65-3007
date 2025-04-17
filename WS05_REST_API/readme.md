@@ -6,7 +6,7 @@ Exercise submit for Workshop 5
 
 - **Express Server**
 
-  - Fetch, add, update and delete people from/to a database
+  - Fetch, add, update and delete people from/to a database<br>
 
   - REST API architecture
 
