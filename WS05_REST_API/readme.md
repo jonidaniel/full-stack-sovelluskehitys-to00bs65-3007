@@ -34,13 +34,16 @@ Exercise submit for Workshop 5
 
     - Request: localhost:3000/api/getall
 
-    - Response: ````
+    - Response: ```
       {
       "name": "Joni",
       "age": 35,
       "city": "Vantaa",
       "email": "joni@live.com
       }
+      ```
+
+      ```
 
 - **GET (by ID)**
 
