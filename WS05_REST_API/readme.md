@@ -16,7 +16,7 @@ Exercise submit for Workshop 5
 
 - **Start command**
 
-  - node app (at root)
+  - ==node app== (at root)
 
 - **Install needed dependencies**
 
