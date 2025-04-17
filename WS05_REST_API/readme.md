@@ -53,6 +53,19 @@ Exercise submit for Workshop 5
 
   - Example:
 
+    &nbsp;&nbsp;Request:
+
+    &nbsp;&nbsp;&nbsp;&nbsp;_localhost:3000/api/getall_
+
+    &nbsp;&nbsp;Response:
+
+    &nbsp;&nbsp;&nbsp;&nbsp;_{_<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"name": "Joni",_<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"age": 35,_<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"city": "Vantaa",_<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"email": "joni@live.com"_<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;_}_
+
 - **POST (new)**
 
   - URL:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;localhost:3000/api/add
@@ -60,6 +73,19 @@ Exercise submit for Workshop 5
   - Returns:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The added person as JSON
 
   - Example:
+
+    &nbsp;&nbsp;Request:
+
+    &nbsp;&nbsp;&nbsp;&nbsp;_localhost:3000/api/getall_
+
+    &nbsp;&nbsp;Response:
+
+    &nbsp;&nbsp;&nbsp;&nbsp;_{_<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"name": "Joni",_<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"age": 35,_<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"city": "Vantaa",_<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"email": "joni@live.com"_<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;_}_
 
 - **PATCH (by ID)**
 
@@ -69,6 +95,19 @@ Exercise submit for Workshop 5
 
   - Example:
 
+    &nbsp;&nbsp;Request:
+
+    &nbsp;&nbsp;&nbsp;&nbsp;_localhost:3000/api/getall_
+
+    &nbsp;&nbsp;Response:
+
+    &nbsp;&nbsp;&nbsp;&nbsp;_{_<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"name": "Joni",_<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"age": 35,_<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"city": "Vantaa",_<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"email": "joni@live.com"_<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;_}_
+
 - **DELETE (by ID)**
 
   - URL:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;localhost:3000/api/delete/:id
@@ -76,6 +115,19 @@ Exercise submit for Workshop 5
   - Returns:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The deleted person as JSON
 
   - Example:
+
+    &nbsp;&nbsp;Request:
+
+    &nbsp;&nbsp;&nbsp;&nbsp;_localhost:3000/api/getall_
+
+    &nbsp;&nbsp;Response:
+
+    &nbsp;&nbsp;&nbsp;&nbsp;_{_<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"name": "Joni",_<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"age": 35,_<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"city": "Vantaa",_<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"email": "joni@live.com"_<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;_}_
 
 ## Author
 
