@@ -34,16 +34,16 @@ Exercise submit for Workshop 5
 
     - Request:
 
-    localhost:3000/api/getall
+      _localhost:3000/api/getall_
 
     - Response:
 
-      {<br>
-      &nbsp;&nbsp;"name": "Joni",<br>
-      &nbsp;&nbsp;"age": 35,<br>
-      &nbsp;&nbsp;"city": "Vantaa",<br>
-      &nbsp;&nbsp;"email": "joni@live.com"<br>
-      }
+      _{_<br>
+      &nbsp;&nbsp;_"name": "Joni",_<br>
+      &nbsp;&nbsp;_"age": 35,_<br>
+      &nbsp;&nbsp;_"city": "Vantaa",_<br>
+      &nbsp;&nbsp;_"email": "joni@live.com"_<br>
+      _}_
 
 - **GET (by ID)**
 
