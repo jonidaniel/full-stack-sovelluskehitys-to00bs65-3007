@@ -28,7 +28,7 @@ Uses Mongoose object modeling for interacting with MongoDB
 
   - URL:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;localhost:3000/api/getall
 
-  - Returns:&nbsp;&nbsp;All people as JSON
+  - Returns:&nbsp;&nbsp;&nbsp;All people as JSON
 
   - Example:
 
@@ -36,25 +36,25 @@ Uses Mongoose object modeling for interacting with MongoDB
 
   - URL:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;localhost:3000/api/:id
 
-  - Returns:&nbsp;&nbsp;The person as JSON
+  - Returns:&nbsp;&nbsp;&nbsp;The person as JSON
 
 - **POST (new)**
 
   - URL:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;localhost:3000/api/add
 
-  - Returns:&nbsp;&nbsp;The added person as JSON
+  - Returns:&nbsp;&nbsp;&nbsp;The added person as JSON
 
 - **PATCH (by ID)**
 
   - URL:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;localhost:3000/api/update/:id
 
-  - Returns:&nbsp;&nbsp;The updated person as JSON
+  - Returns:&nbsp;&nbsp;&nbsp;The updated person as JSON
 
 - **DELETE (by ID)**
 
   - URL:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;localhost:3000/api/delete/:id
 
-  - Returns:&nbsp;&nbsp;The deleted person as JSON
+  - Returns:&nbsp;&nbsp;&nbsp;The deleted person as JSON
 
 ## Author
 
