@@ -32,18 +32,18 @@ Exercise submit for Workshop 5
 
   - Example:
 
-    Request:
+    &nbsp;&nbsp;Request:
 
-    &nbsp;&nbsp;_localhost:3000/api/getall_
+    &nbsp;&nbsp;&nbsp;&nbsp;_localhost:3000/api/getall_
 
-    Response:
+    &nbsp;&nbsp;Response:
 
-    _{_<br>
-    &nbsp;&nbsp;_"name": "Joni",_<br>
-    &nbsp;&nbsp;_"age": 35,_<br>
-    &nbsp;&nbsp;_"city": "Vantaa",_<br>
-    &nbsp;&nbsp;_"email": "joni@live.com"_<br>
-    _}_
+    &nbsp;&nbsp;_{_<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;_"name": "Joni",_<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;_"age": 35,_<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;_"city": "Vantaa",_<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;_"email": "joni@live.com"_<br>
+    &nbsp;&nbsp;_}_
 
 - **GET (by ID)**
 
