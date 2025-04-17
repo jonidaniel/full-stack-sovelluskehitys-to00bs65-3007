@@ -42,7 +42,7 @@ Uses Mongoose object modeling for interacting with MongoDB
 
   - URL: _localhost:3000/api/add_
 
-  - Returns the added person as JSON
+  - Returns:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The added person as JSON
 
 - **PATCH (by ID)**
 
@@ -56,7 +56,7 @@ Uses Mongoose object modeling for interacting with MongoDB
 
   - Returns the deleted person as JSON
 
-### Author
+## Author
 
 © 2025 Joni Mäkinen
 
