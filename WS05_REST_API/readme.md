@@ -122,15 +122,24 @@ Exercise submit for Workshop 5
 
     &nbsp;&nbsp;Request:
 
-    &nbsp;&nbsp;&nbsp;&nbsp;_localhost:3000/api/update/6800aec5563f57db4d03df30_
+    &nbsp;&nbsp;&nbsp;&nbsp;_localhost:3000/api/update/6800dc74f24cd1fb3de91720_
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;with body:
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_{_<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"age": 23,_<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"city": "Sastamala"_<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_}_
 
     &nbsp;&nbsp;Response:
 
     &nbsp;&nbsp;&nbsp;&nbsp;_{_<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"\_id": "6800dc74f24cd1fb3de91720",_<br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"name": "Joni",_<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"age": 35,_<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"city": "Vantaa",_<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"email": "joni@live.com"_<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"age": 23,_<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"city": "Sastamala",_<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"email": "joni@live.com",_<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"\_\_v": 0_<br>
     &nbsp;&nbsp;&nbsp;&nbsp;_}_
 
 - **DELETE (by ID)**
@@ -143,15 +152,17 @@ Exercise submit for Workshop 5
 
     &nbsp;&nbsp;Request:
 
-    &nbsp;&nbsp;&nbsp;&nbsp;_localhost:3000/api/delete/6800aec5563f57db4d03df30_
+    &nbsp;&nbsp;&nbsp;&nbsp;_localhost:3000/api/delete/6800dc74f24cd1fb3de91720_
 
     &nbsp;&nbsp;Response:
 
     &nbsp;&nbsp;&nbsp;&nbsp;_{_<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"\_id": "6800dc74f24cd1fb3de91720",_<br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"name": "Joni",_<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"age": 35,_<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"city": "Vantaa",_<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"email": "joni@live.com"_<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"age": 23,_<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"city": "Sastamala",_<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"email": "joni@live.com",_<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"\_\_v": 0_<br>
     &nbsp;&nbsp;&nbsp;&nbsp;_}_
 
 ## Author
