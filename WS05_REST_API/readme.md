@@ -4,23 +4,23 @@ Exercise submit for Workshop 5
 
 ## App description
 
-Express Server
+- **Express Server**
 
-Fetch, add, update and delete people from/to a database
+  - Fetch, add, update and delete people from/to a database
 
-REST API architecture
+  - REST API architecture
 
-Uses Mongoose object modeling for interacting with MongoDB
+  - Uses Mongoose object modeling for interacting with MongoDB
 
 ## How to get started
 
-- Start command (at root):
+- Start command:
 
-  - _node app_
+  - node app (at root)
 
-- Install needed dependencies (at root):
+- Install needed dependencies:
 
-  - _npm i_
+  - npm i (at root)
 
 ## Available routes
 
