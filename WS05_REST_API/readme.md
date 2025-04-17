@@ -16,7 +16,7 @@ Exercise submit for Workshop 5
 
 - **Start command**
 
-  - <mark style="padding:20px;">node app</mark> (at root)
+  - <mark style="margin-right:200px;">node app</mark> (at root)
 
 - **Install needed dependencies**
 
