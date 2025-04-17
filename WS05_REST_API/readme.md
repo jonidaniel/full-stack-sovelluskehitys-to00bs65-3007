@@ -14,11 +14,11 @@ Exercise submit for Workshop 5
 
   - The database collection uses following document schema:
 
-    &nbsp;&nbsp;{
-    &nbsp;&nbsp;&nbsp;&nbsp;name: String,
-    &nbsp;&nbsp;&nbsp;&nbsp;age: Number,
-    &nbsp;&nbsp;&nbsp;&nbsp;city: String,
-    &nbsp;&nbsp;&nbsp;&nbsp;email: String
+    &nbsp;&nbsp;{<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;name: String,<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;age: Number,<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;city: String,<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;email: String<br>
     &nbsp;&nbsp;}
 
 ## How to get started
