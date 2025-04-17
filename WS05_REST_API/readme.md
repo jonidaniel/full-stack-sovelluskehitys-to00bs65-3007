@@ -26,33 +26,33 @@ Uses Mongoose object modeling for interacting with MongoDB
 
 - **GET (all)**
 
-  - URL: _localhost:3000/api/getall_
+  - URL:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;localhost:3000/api/getall
 
-  - Returns all people as JSON
+  - Returns&nbsp;&nbsp;All people as JSON
 
   - Example:
 
 - **GET (by ID)**
 
-  - URL:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;localhost:3000/api/:id
+  - URL:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;localhost:3000/api/:id
 
   - Returns:&nbsp;&nbsp;The person as JSON
 
 - **POST (new)**
 
-  - URL: _localhost:3000/api/add_
+  - URL: localhost:3000/api/add
 
   - Returns:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The added person as JSON
 
 - **PATCH (by ID)**
 
-  - URL: _localhost:3000/api/update/:id_
+  - URL: localhost:3000/api/update/:id
 
   - Returns the updated person as JSON
 
 - **DELETE (by ID)**
 
-  - URL: _localhost:3000/api/delete/:id_
+  - URL: localhost:3000/api/delete/:id
 
   - Returns the deleted person as JSON
 
