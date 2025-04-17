@@ -38,6 +38,8 @@ Uses Mongoose object modeling for interacting with MongoDB
 
   - Returns:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The person as JSON
 
+  - Example:
+
 - **POST (new)**
 
   - URL:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;localhost:3000/api/add
