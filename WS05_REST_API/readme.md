@@ -26,35 +26,41 @@ Uses Mongoose object modeling for interacting with MongoDB
 
 - **GET (all)**
 
-  - URL:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;localhost:3000/api/getall
+  - URL:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;localhost:3000/api/getall
 
-  - Returns:&nbsp;&nbsp;&nbsp;&nbsp;All people as JSON
+  - Returns:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All people as JSON
 
   - Example:
 
 - **GET (by ID)**
 
-  - URL:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;localhost:3000/api/:id
+  - URL:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;localhost:3000/api/:id
 
-  - Returns:&nbsp;&nbsp;&nbsp;&nbsp;The person as JSON
+  - Returns:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The person as JSON
 
 - **POST (new)**
 
-  - URL:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;localhost:3000/api/add
+  - URL:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;localhost:3000/api/add
 
-  - Returns:&nbsp;&nbsp;&nbsp;&nbsp;The added person as JSON
+  - Returns:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The added person as JSON
+
+  - Example:
 
 - **PATCH (by ID)**
 
-  - URL:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;localhost:3000/api/update/:id
+  - URL:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;localhost:3000/api/update/:id
 
-  - Returns:&nbsp;&nbsp;&nbsp;&nbsp;The updated person as JSON
+  - Returns:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The updated person as JSON
+
+  - Example:
 
 - **DELETE (by ID)**
 
-  - URL:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;localhost:3000/api/delete/:id
+  - URL:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;localhost:3000/api/delete/:id
 
-  - Returns:&nbsp;&nbsp;&nbsp;&nbsp;The deleted person as JSON
+  - Returns:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The deleted person as JSON
+
+  - Example:
 
 ## Author
 
