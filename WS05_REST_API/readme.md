@@ -38,14 +38,12 @@ Exercise submit for Workshop 5
 
     - Response:
 
-    ```
       {
-        "name": "Joni",
-        "age": 35,
-        "city": "Vantaa",
-        "email": "joni@live.com
+      "name": "Joni",
+      "age": 35,
+      "city": "Vantaa",
+      "email": "joni@live.com
       }
-    ```
 
 - **GET (by ID)**
 
