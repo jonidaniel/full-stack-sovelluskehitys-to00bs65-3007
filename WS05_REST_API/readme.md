@@ -28,15 +28,15 @@ Exercise submit for Workshop 5
 
   - URL:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;localhost:3000/api/getall
 
-  - Returns:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All people as JSON
+  - Returns:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All people documents as a JSON string
 
   - Example:
 
-    &nbsp;&nbsp;Request:
+    &nbsp;&nbsp;Request URL:
 
     &nbsp;&nbsp;&nbsp;&nbsp;_localhost:3000/api/getall_
 
-    &nbsp;&nbsp;Response:
+    &nbsp;&nbsp;Response string:
 
     &nbsp;&nbsp;&nbsp;&nbsp;_[_<br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_{_<br>
@@ -44,7 +44,7 @@ Exercise submit for Workshop 5
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"name": "Joni",_<br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"age": 35,_<br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"city": "Vantaa",_<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"email": "joni@live.fi"_<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"email": "joni@live.fi",_<br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"\_\_v": 0_<br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_},_<br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_{_<br>
@@ -52,7 +52,7 @@ Exercise submit for Workshop 5
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"name": "Jani",_<br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"age": 41,_<br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"city": "Lahti",_<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"email": "jani@love.fi"_<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"email": "jani@love.fi",_<br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"\_\_v": 0_<br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_}_<br>
     &nbsp;&nbsp;&nbsp;&nbsp;_]_
@@ -61,15 +61,15 @@ Exercise submit for Workshop 5
 
   - URL:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;localhost:3000/api/:id
 
-  - Returns:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The person as JSON
+  - Returns:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The person documents as a JSON string
 
   - Example:
 
-    &nbsp;&nbsp;Request:
+    &nbsp;&nbsp;Request URL:
 
     &nbsp;&nbsp;&nbsp;&nbsp;_localhost:3000/api/6800dc74f24cd1fb3de91720_
 
-    &nbsp;&nbsp;Response:
+    &nbsp;&nbsp;Response string:
 
     &nbsp;&nbsp;&nbsp;&nbsp;_{_<br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"\_id": "6800dc74f24cd1fb3de91720",_<br>
@@ -84,11 +84,11 @@ Exercise submit for Workshop 5
 
   - URL:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;localhost:3000/api/add
 
-  - Returns:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The added person as JSON
+  - Returns:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The added person document as a JSON string
 
   - Example:
 
-    &nbsp;&nbsp;Request:
+    &nbsp;&nbsp;Request URL:
 
     &nbsp;&nbsp;&nbsp;&nbsp;_localhost:3000/api/add_
 
@@ -101,7 +101,7 @@ Exercise submit for Workshop 5
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"email": "joni@live.fi"_<br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_}_
 
-    &nbsp;&nbsp;Response:
+    &nbsp;&nbsp;Response string:
 
     &nbsp;&nbsp;&nbsp;&nbsp;_{_<br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"name": "Joni",_<br>
@@ -116,11 +116,11 @@ Exercise submit for Workshop 5
 
   - URL:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;localhost:3000/api/update/:id
 
-  - Returns:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The updated person as JSON
+  - Returns:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The updated person document as a JSON string
 
   - Example:
 
-    &nbsp;&nbsp;Request:
+    &nbsp;&nbsp;Request URL:
 
     &nbsp;&nbsp;&nbsp;&nbsp;_localhost:3000/api/update/6800dc74f24cd1fb3de91720_
 
@@ -131,7 +131,7 @@ Exercise submit for Workshop 5
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"city": "Sastamala"_<br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_}_
 
-    &nbsp;&nbsp;Response:
+    &nbsp;&nbsp;Response string:
 
     &nbsp;&nbsp;&nbsp;&nbsp;_{_<br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"\_id": "6800dc74f24cd1fb3de91720",_<br>
@@ -146,15 +146,15 @@ Exercise submit for Workshop 5
 
   - URL:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;localhost:3000/api/delete/:id
 
-  - Returns:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The deleted person as JSON
+  - Returns:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The deleted person document as a JSON string
 
   - Example:
 
-    &nbsp;&nbsp;Request:
+    &nbsp;&nbsp;Request URL:
 
     &nbsp;&nbsp;&nbsp;&nbsp;_localhost:3000/api/delete/6800dc74f24cd1fb3de91720_
 
-    &nbsp;&nbsp;Response:
+    &nbsp;&nbsp;Response string:
 
     &nbsp;&nbsp;&nbsp;&nbsp;_{_<br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"\_id": "6800dc74f24cd1fb3de91720",_<br>
