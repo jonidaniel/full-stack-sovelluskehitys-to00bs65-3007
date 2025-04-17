@@ -16,7 +16,7 @@ Exercise submit for Workshop 5
 
 - **Start command**
 
-  - <mark style="margin-right:200px;">node app</mark> (at root)
+  - node app (at root)
 
 - **Install needed dependencies**
 
@@ -42,7 +42,7 @@ Exercise submit for Workshop 5
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"name": "Joni",_<br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"age": 35,_<br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"city": "Vantaa",_<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"email": "joni@live.com"_<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"email": "joni@live.fi"_<br>
     &nbsp;&nbsp;&nbsp;&nbsp;_}_
 
 - **GET (by ID)**
@@ -55,7 +55,7 @@ Exercise submit for Workshop 5
 
     &nbsp;&nbsp;Request:
 
-    &nbsp;&nbsp;&nbsp;&nbsp;_localhost:3000/api/getall_
+    &nbsp;&nbsp;&nbsp;&nbsp;_localhost:3000/api/6800aec5563f57db4d03df30_
 
     &nbsp;&nbsp;Response:
 
@@ -76,7 +76,7 @@ Exercise submit for Workshop 5
 
     &nbsp;&nbsp;Request:
 
-    &nbsp;&nbsp;&nbsp;&nbsp;_localhost:3000/api/getall_
+    &nbsp;&nbsp;&nbsp;&nbsp;_localhost:3000/api/add_
 
     &nbsp;&nbsp;Response:
 
@@ -97,7 +97,7 @@ Exercise submit for Workshop 5
 
     &nbsp;&nbsp;Request:
 
-    &nbsp;&nbsp;&nbsp;&nbsp;_localhost:3000/api/getall_
+    &nbsp;&nbsp;&nbsp;&nbsp;_localhost:3000/api/update/6800aec5563f57db4d03df30_
 
     &nbsp;&nbsp;Response:
 
@@ -118,7 +118,7 @@ Exercise submit for Workshop 5
 
     &nbsp;&nbsp;Request:
 
-    &nbsp;&nbsp;&nbsp;&nbsp;_localhost:3000/api/getall_
+    &nbsp;&nbsp;&nbsp;&nbsp;_localhost:3000/api/delete/6800aec5563f57db4d03df30_
 
     &nbsp;&nbsp;Response:
 
