@@ -12,6 +12,15 @@ Exercise submit for Workshop 5
 
   - Uses [Mongoose](https://mongoosejs.com) object modeling for interacting with [MongoDB](https://www.mongodb.com)
 
+  - The database collection uses following document schema:
+
+    &nbsp;&nbsp;{
+    &nbsp;&nbsp;&nbsp;&nbsp;name: String,
+    &nbsp;&nbsp;&nbsp;&nbsp;age: Number,
+    &nbsp;&nbsp;&nbsp;&nbsp;city: String,
+    &nbsp;&nbsp;&nbsp;&nbsp;email: String
+    &nbsp;&nbsp;}
+
 ## How to get started
 
 - **Start command**
