@@ -32,16 +32,18 @@ Exercise submit for Workshop 5
 
   - Example:
 
-    - Request: localhost:3000/api/getall
+    - Request:
+
+    > localhost:3000/api/getall
 
     - Response:
 
     ```
       {
-      "name": "Joni",
-      "age": 35,
-      "city": "Vantaa",
-      "email": "joni@live.com
+        "name": "Joni",
+        "age": 35,
+        "city": "Vantaa",
+        "email": "joni@live.com
       }
     ```
 
