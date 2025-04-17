@@ -38,7 +38,7 @@ Exercise submit for Workshop 5
 
     - Response:
 
-      {
+      {<br>
       "name": "Joni",
       "age": 35,
       "city": "Vantaa",
