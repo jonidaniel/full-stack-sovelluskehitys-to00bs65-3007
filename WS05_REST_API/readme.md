@@ -20,7 +20,7 @@ Install needed dependencies (at root): npm i
 
 ## Available routes
 
-- GET (all)
+- **GET (all)**
 
   -- URL: localhost:3000/api/getall
   -- Returns all people as JSON
