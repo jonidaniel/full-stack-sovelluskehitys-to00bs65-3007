@@ -23,27 +23,33 @@ Install needed dependencies (at root): npm i
 - **GET (all)**
 
   -- URL: _localhost:3000/api/getall_
+
   -- Returns all people as JSON
+
   -- Example:
 
 - **GET (by ID)**
 
   -- URL: _localhost:3000/api/:id_
+
   -- Returns the person as JSON
 
 - **POST (new)**
 
   -- URL: _localhost:3000/api/add_
+
   -- Returns the added person as JSON
 
 - **PATCH (by ID)**
 
   -- URL: _localhost:3000/api/update/:id_
+
   -- Returns the updated person as JSON
 
 - **DELETE (by ID)**
 
   -- URL: _localhost:3000/api/delete/:id_
+
   -- Returns the deleted person as JSON
 
 ### Author
