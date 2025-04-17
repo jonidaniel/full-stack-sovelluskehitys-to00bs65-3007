@@ -10,7 +10,7 @@ Exercise submit for Workshop 5
 
   - REST API architecture
 
-  - Uses Mongoose object modeling for interacting with MongoDB
+  - Uses [Mongoose](https://mongoosejs.com) object modeling for interacting with [MongoDB](https://www.mongodb.com)
 
 ## How to get started
 
@@ -70,4 +70,4 @@ Exercise submit for Workshop 5
 
 ## Author
 
-© 2025 Joni Mäkinen @jonidaniel
+© 2025 Joni Mäkinen [@jonidaniel](https://github.com/jonidaniel)
