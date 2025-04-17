@@ -14,43 +14,47 @@ Uses Mongoose object modeling for interacting with MongoDB
 
 ## How to get started
 
-Start command (at root): node app
+- Start command (at root):
 
-Install needed dependencies (at root): npm i
+  - _node app_
+
+- Install needed dependencies (at root):
+
+  - _npm i_
 
 ## Available routes
 
 - **GET (all)**
 
-  -- URL: _localhost:3000/api/getall_
+  - URL: _localhost:3000/api/getall_
 
-  -- Returns all people as JSON
+  - Returns all people as JSON
 
-  -- Example:
+  - Example:
 
 - **GET (by ID)**
 
-  -- URL: _localhost:3000/api/:id_
+  - URL: _localhost:3000/api/:id_
 
-  -- Returns the person as JSON
+  - Returns the person as JSON
 
 - **POST (new)**
 
   - URL: _localhost:3000/api/add_
 
-  -- Returns the added person as JSON
+  - Returns the added person as JSON
 
 - **PATCH (by ID)**
 
-  -- URL: _localhost:3000/api/update/:id_
+  - URL: _localhost:3000/api/update/:id_
 
-  -- Returns the updated person as JSON
+  - Returns the updated person as JSON
 
 - **DELETE (by ID)**
 
-  -- URL: _localhost:3000/api/delete/:id_
+  - URL: _localhost:3000/api/delete/:id_
 
-  -- Returns the deleted person as JSON
+  - Returns the deleted person as JSON
 
 ### Author
 
