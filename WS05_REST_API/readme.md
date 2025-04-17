@@ -78,7 +78,7 @@ Exercise submit for Workshop 5
 
     &nbsp;&nbsp;&nbsp;&nbsp;_localhost:3000/api/add_
 
-    &nbsp;&nbsp;with body:
+    &nbsp;&nbsp;&nbsp;&nbsp;with body:
 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_{_<br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_"name": "Joni",_<br>
