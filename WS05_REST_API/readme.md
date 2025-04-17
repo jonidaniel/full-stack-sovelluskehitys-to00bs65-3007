@@ -39,10 +39,10 @@ Exercise submit for Workshop 5
     - Response:
 
       {<br>
-      "name": "Joni",
-      "age": 35,
-      "city": "Vantaa",
-      "email": "joni@live.com
+      &nbsp;&nbsp;"name": "Joni",<br>
+      &nbsp;&nbsp;"age": 35,<br>
+      &nbsp;&nbsp;"city": "Vantaa",<br>
+      &nbsp;&nbsp;"email": "joni@live.com<br>
       }
 
 - **GET (by ID)**
