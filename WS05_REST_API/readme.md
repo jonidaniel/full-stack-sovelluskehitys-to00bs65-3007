@@ -36,7 +36,7 @@ Install needed dependencies (at root): npm i
 
 - **POST (new)**
 
-  -- URL: _localhost:3000/api/add_
+  - URL: _localhost:3000/api/add_
 
   -- Returns the added person as JSON
 
