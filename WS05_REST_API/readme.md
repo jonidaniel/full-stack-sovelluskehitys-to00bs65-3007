@@ -14,11 +14,11 @@ Exercise submit for Workshop 5
 
 ## How to get started
 
-- Start command
+- **Start command**
 
   - node app (at root)
 
-- Install needed dependencies
+- **Install needed dependencies**
 
   - npm i (at root)
 
@@ -31,6 +31,10 @@ Exercise submit for Workshop 5
   - Returns:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All people as JSON
 
   - Example:
+
+    - Request: localhost:3000/api/getall
+
+    - Response: {}
 
 - **GET (by ID)**
 
