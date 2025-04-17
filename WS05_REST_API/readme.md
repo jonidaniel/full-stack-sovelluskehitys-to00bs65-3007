@@ -4,9 +4,9 @@ Exercise submit for Workshop 5
 
 ## App description
 
-- **Express Server**
+- **[Express](https://expressjs.com) Server**
 
-  - Fetch, add, update and delete people from/to a database<br>
+  - Fetch, add, update and delete people from/to a database
 
   - REST API architecture
 
