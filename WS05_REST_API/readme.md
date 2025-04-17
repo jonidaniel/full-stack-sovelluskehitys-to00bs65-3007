@@ -34,7 +34,7 @@ Uses Mongoose object modeling for interacting with MongoDB
 
 - **GET (by ID)**
 
-  - URL:&ensp;&ensp;&ensp;&ensp;&ensp;_localhost:3000/api/:id_
+  - URL:&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;localhost:3000/api/:id
 
   - Returns:&ensp;&ensp;The person as JSON
 
