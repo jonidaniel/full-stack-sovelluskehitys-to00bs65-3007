@@ -61,7 +61,7 @@ Exercise submit for Workshop 5
 
   - URL:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;localhost:3000/api/:id
 
-  - Returns:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The person documents as a JSON string
+  - Returns:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The person document as a JSON string
 
   - Example:
 
