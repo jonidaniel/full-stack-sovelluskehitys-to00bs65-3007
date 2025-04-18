@@ -9,7 +9,8 @@ router.get("/getall", async (req, res) => {
     const people = await Person.find();
     res.status(200).json(people);
   } catch (error) {
-    res.status(500).json({ error: "Failed to fetch people" });
+    if (error.message) res.status(500).send(error.message);
+    else res.status(500).json({ error: "Failed to fetch people" });
   }
 });
 
@@ -17,9 +18,15 @@ router.get("/getall", async (req, res) => {
 router.get("/:id", async (req, res) => {
   try {
     const person = await Person.findById(req.params.id);
-    res.status(200).json(person);
+    // Person might be null
+    // This happens when fetching a previously deleted document with an ID
+    // MongoDB doesn't give an error in those cases, this workaround does
+    if (!person)
+      res.status(410).json({ error: "The person doesn't exist anymore" });
+    else res.status(200).json(person);
   } catch (error) {
-    res.status(500).json({ error: "Failed to fetch the person" });
+    if (error.message) res.status(404).send(error.message);
+    else res.status(404).json({ error: "Failed to fetch the person" });
   }
 });
 
@@ -27,9 +34,11 @@ router.get("/:id", async (req, res) => {
 router.post("/add", async (req, res) => {
   try {
     const added = await Person.create(req.body);
-    res.status(200).json(added);
+    res.status(201).json(added);
   } catch (error) {
-    res.status(500).json({ error: "Failed to add the person" });
+    // Inform the user if a required key-value pair is missing
+    if (error.message) res.status(400).send(error.message);
+    else res.status(400).json({ error: "Failed to add the person" });
   }
 });
 
@@ -38,19 +47,21 @@ router.patch("/update/:id", async (req, res) => {
   try {
     await Person.findByIdAndUpdate(req.params.id, req.body);
     const updated = await Person.findById(req.params.id);
-    res.status(200).json(updated);
+    res.status(201).json(updated);
   } catch (error) {
-    res.status(500).json({ error: "Failed to update the person" });
+    if (error.message) res.status(400).send(error.message);
+    else res.status(400).json({ error: "Failed to update the person" });
   }
 });
 
 // DELETE a person by ID
 router.delete("/delete/:id", async (req, res) => {
   try {
-    const deleted = await Person.findByIdAndDelete(req.params.id);
-    res.status(200).json(deleted);
+    await Person.findByIdAndDelete(req.params.id);
+    res.status(204).json();
   } catch (error) {
-    res.status(500).json({ error: "Failed to delete the person" });
+    if (error.message) res.status(404).send(error.message);
+    else res.status(404).json({ error: "Failed to delete the person" });
   }
 });
 

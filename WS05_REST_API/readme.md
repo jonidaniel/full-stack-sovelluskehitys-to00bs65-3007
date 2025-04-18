@@ -155,7 +155,7 @@ Exercise submit for Workshop 5
 
   - URL:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;localhost:3000/api/delete/:id
 
-  - Returns:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The deleted person document as a JSON string
+  - Returns:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;204 No Content
 
   - Example:
 
