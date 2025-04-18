@@ -23,13 +23,13 @@ Exercise submit for Workshop 5
 
 ## How to get started
 
-- **Start command**
-
-  - node app (at root)
-
 - **Install needed dependencies**
 
   - npm i (at root)
+
+- **Start command**
+
+  - node app (at root)
 
 ## Available routes
 
